@@ -18,39 +18,39 @@ export const AboutPage = () => {
       role: "CEO & Founder",
       company: "VenRAAG",
       type: "Full-time",
-      period: "Jul 2024 â€” Present",
-      location: "London, United Kingdom Â· On-site",
+      period: "Jul 2024 ” Present",
+      location: "London, United Kingdom   On-site",
       note: "Running the team that builds Enclaraa  an AI tool for legal teams whose data has to stay inside the firm.",
     },
     {
       role: "Director",
       company: "Arvya Tech",
       type: "Full-time",
-      period: "May 2024 â€” Present",
-      location: "Amaravati, Andhra Pradesh Â· Hybrid",
-      note: "Leading our India team. We build AI tools that fit into the systems large businesses already use â€” invoice reading, smart search, day-to-day automation.",
+      period: "May 2024 ” Present",
+      location: "Amaravati, Andhra Pradesh   Hybrid",
+      note: "Leading our India team. We build AI tools that fit into the systems large businesses already use ” invoice reading, smart search, day-to-day automation.",
     },
     {
       role: "Gen AI Specialist, Senior Data Scientist",
       company: "Outlier",
       type: "Full-time",
-      period: "Dec 2024 â€” Mar 2025",
-      location: "London Â· Remote",
-      note: "Worked on improving how the latest AI models reason and answer hard questions â€” frontier research from one of the leading projects in the field.",
+      period: "Dec 2024 ” Mar 2025",
+      location: "London   Remote",
+      note: "Worked on improving how the latest AI models reason and answer hard questions ” frontier research from one of the leading projects in the field.",
     },
     {
       role: "RAG Data Scientist",
       company: "Cohere",
       type: "Full-time",
-      period: "Jun 2024 â€” Nov 2024",
-      location: "London Â· Hybrid",
+      period: "Jun 2024 ” Nov 2024",
+      location: "London   Hybrid",
       note: "Worked on the AI search systems that find the right passage inside large collections of documents. A lot of what makes Enclaraa work today started here.",
     },
     {
       role: "Data Scientist",
       company: "AntWorks",
       type: "Full-time",
-      period: "Dec 2019 â€” Sep 2022",
+      period: "Dec 2019 ” Sep 2022",
       location: "Hybrid",
       note: "Three years building AI systems that businesses actually depend on. The kind of work that teaches you what breaks once real people start using it.",
     },
@@ -67,7 +67,7 @@ export const AboutPage = () => {
     {
       school: "University of Greenwich",
       degree: "MSc, Big Data & Business Intelligence",
-      grade: "Distinction â€” where Enclaraa was first prototyped.",
+      grade: "Distinction ” where Enclaraa was first prototyped.",
       mark: "UoG",
       logoSrc: "https://logo.clearbit.com/gre.ac.uk",
     },
@@ -80,7 +80,7 @@ export const AboutPage = () => {
     },
     {
       school: "Narayana Institute",
-      degree: "High School Diploma â€” Math, Physics, Chemistry",
+      degree: "High School Diploma  Math, Physics, Chemistry",
       grade: "96.8%",
       mark: "N",
       logoSrc: "https://logo.clearbit.com/narayanagroup.com",
@@ -110,7 +110,7 @@ export const AboutPage = () => {
 
   // Scroll-linked vertical timeline line for Experience.
   // The same callback also reveals each row the moment the traveling circle
-  // passes its center â€” so text appears only when the dot "arrives".
+  // passes its center ” so text appears only when the dot "arrives".
   const lineRef = useRef<HTMLDivElement>(null);
   const expContainerRef = useScrollLinked<HTMLDivElement>((p) => {
     if (lineRef.current)

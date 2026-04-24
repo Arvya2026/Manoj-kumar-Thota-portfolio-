@@ -45,7 +45,9 @@ export const WorkCard = ({
 
         {/* Meta */}
         <div className="flex-1 flex flex-col gap-3 pb-4">
-          <p className="text-white/40 text-xs tracking-[0.22em] uppercase font-light">{category}</p>
+          <p className="text-white/40 text-xs tracking-[0.22em] uppercase font-light">
+            {category}
+          </p>
           <h3
             className="text-white font-neutralsans font-normal leading-none tracking-tight"
             style={{ fontSize: "clamp(28px, 3.5vw, 52px)" }}
@@ -55,7 +57,9 @@ export const WorkCard = ({
           <p className="text-white/35 text-sm font-light">{date}</p>
           <div className="mt-4 inline-flex items-center gap-2 text-white/50 text-sm group-hover:text-white transition-colors duration-500">
             <span className="font-light tracking-wide">View Project</span>
-            <span className="text-lg transition-transform duration-500 group-hover:translate-x-1">â†’</span>
+            <span className="text-lg transition-transform duration-500 group-hover:translate-x-1">
+              {" "}
+            </span>
           </div>
         </div>
       </a>

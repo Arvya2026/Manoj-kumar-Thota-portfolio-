@@ -173,8 +173,12 @@ body {
 
 /* Marquee */
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 .marquee-track {
   display: flex;
@@ -187,8 +191,12 @@ body {
 
 /* Hero clip path reveal */
 @keyframes heroClip {
-  0% { clip-path: inset(0 100% 0 0); }
-  100% { clip-path: inset(0 0% 0 0); }
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0% 0 0);
+  }
 }
 .hero-text-reveal {
   animation: heroClip 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
@@ -196,11 +204,15 @@ body {
 
 /* Line draw */
 @keyframes lineDraw {
-  0% { transform: scaleX(0); }
-  100% { transform: scaleX(1); }
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
-/* Page entrance — used by every route switch */
+/* Page entrance    used by every route switch */
 @keyframes pageEnter {
   0% {
     opacity: 0;
@@ -234,7 +246,13 @@ body {
 
 /* Gradient sheen for hero numbers / highlights */
 .sheen {
-  background: linear-gradient(120deg, #fff 0%, #fff 45%, rgba(255,255,255,0.35) 55%, #fff 70%);
+  background: linear-gradient(
+    120deg,
+    #fff 0%,
+    #fff 45%,
+    rgba(255, 255, 255, 0.35) 55%,
+    #fff 70%
+  );
   background-size: 220% 100%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -242,8 +260,12 @@ body {
   animation: sheenMove 6s linear infinite;
 }
 @keyframes sheenMove {
-  0% { background-position: 220% 0; }
-  100% { background-position: -220% 0; }
+  0% {
+    background-position: 220% 0;
+  }
+  100% {
+    background-position: -220% 0;
+  }
 }
 
 /* Link underline that draws on hover */
@@ -306,7 +328,7 @@ body {
   transform: translateY(0);
 }
 
-/* Staggered child fade-up — paired with data-stagger attrs */
+/* Staggered child fade-up    paired with data-stagger attrs */
 [data-stagger] {
   opacity: 0;
   transform: translateY(26px);
@@ -324,7 +346,7 @@ body {
   transform: translateY(20px);
 }
 
-/* Vertical timeline line — driven by --progress */
+/* Vertical timeline line    driven by --progress */
 .timeline-line {
   position: absolute;
   top: 0;
@@ -366,7 +388,8 @@ body {
   will-change: top;
 }
 @keyframes timeline-runner-pulse {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow:
       0 0 0 4px rgba(255, 255, 255, 0.08),
       0 0 16px rgba(255, 255, 255, 0.35);

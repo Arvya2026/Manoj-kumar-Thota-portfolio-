@@ -9,13 +9,13 @@ export const ContactPage = () => {
 
   const channels = [
     {
-      label: "Email — VenRAAG",
+      label: "Email    VenRAAG",
       value: "info@venraag.com",
       href: "mailto:info@venraag.com",
       hint: "Best for AI tools for legal teams, Enclaraa and partnerships.",
     },
     {
-      label: "Email — Arvya Tech",
+      label: "Email    Arvya Tech",
       value: "info@arvya.in",
       href: "mailto:info@arvya.in",
       hint: "Best for AI tools for finance, operations and back-office teams.",
@@ -37,8 +37,7 @@ export const ContactPage = () => {
     {
       city: "Vijayawada, Andhra Pradesh",
       role: "Arvya Tech · Engineering",
-      note:
-        "APIIC IT Park Autonagar Phase 2, Amaravati — 522503. Where our India team builds and ships.",
+      note: "APIIC IT Park Autonagar Phase 2, Amaravati    522503. Where our India team builds and ships.",
     },
   ];
 
@@ -58,16 +57,12 @@ export const ContactPage = () => {
               <SplitText text="Got a problem worth" step={55} delay={120} />
               <br />
               <span className="text-white/30">
-                <SplitText
-                  text="solving with AI?"
-                  step={55}
-                  delay={520}
-                />
+                <SplitText text="solving with AI?" step={55} delay={520} />
               </span>
             </h1>
             <p className="text-white/55 text-base md:text-lg font-light max-w-2xl mt-10 leading-relaxed">
-              Whether it&rsquo;s an AI tool for your legal team, automation for your
-              finance team, or something nobody&rsquo;s built yet I&rsquo;d
+              Whether it&rsquo;s an AI tool for your legal team, automation for
+              your finance team, or something nobody&rsquo;s built yet I&rsquo;d
               like to hear about it.
             </p>
           </div>
@@ -95,12 +90,18 @@ export const ContactPage = () => {
                     <a
                       href={c.href}
                       target={c.href.startsWith("http") ? "_blank" : undefined}
-                      rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                      rel={
+                        c.href.startsWith("http")
+                          ? "noopener noreferrer"
+                          : undefined
+                      }
                       className="text-white text-lg md:text-xl font-normal link-underline"
                     >
                       {c.value}
                     </a>
-                    <p className="text-white/45 text-sm font-light mt-1">{c.hint}</p>
+                    <p className="text-white/45 text-sm font-light mt-1">
+                      {c.hint}
+                    </p>
                   </li>
                 ))}
               </ul>
@@ -122,7 +123,7 @@ export const ContactPage = () => {
                     Enclaraa &middot; Legal AI
                   </p>
                   <p className="text-white/30 text-[11px] font-light mt-3 tracking-wider">
-                    venraag.com â†’
+                    venraag.com
                   </p>
                 </a>
                 <a
@@ -136,14 +137,14 @@ export const ContactPage = () => {
                     Applied Enterprise AI
                   </p>
                   <p className="text-white/30 text-[11px] font-light mt-3 tracking-wider">
-                    arvya.in â†’
+                    arvya.in
                   </p>
                 </a>
               </div>
             </div>
           </div>
 
-          {/* Form — staggered field reveals */}
+          {/* Form    staggered field reveals */}
           <div
             ref={formRef}
             className="md:col-span-7 border border-white/10 rounded-2xl p-7 md:p-10 bg-white/[0.02]"
@@ -164,15 +165,19 @@ export const ContactPage = () => {
                 const email = data.get("email") as string;
                 const message = data.get("message") as string;
                 const subject = encodeURIComponent(
-                  `Portfolio enquiry from ${name || "a visitor"}`
+                  `Portfolio enquiry from ${name || "a visitor"}`,
                 );
                 const body = encodeURIComponent(
-                  `Name: ${name}\nEmail: ${email}\n\n${message}`
+                  `Name: ${name}\nEmail: ${email}\n\n${message}`,
                 );
                 window.location.href = `mailto:info@venraag.com?subject=${subject}&body=${body}`;
               }}
             >
-              <Field name="name" label="Your name" placeholder="Manoj Kumar Thota" />
+              <Field
+                name="name"
+                label="Your name"
+                placeholder="Manoj Kumar Thota"
+              />
               <Field
                 name="email"
                 label="Email"
@@ -202,7 +207,7 @@ export const ContactPage = () => {
                 className="self-start mt-2 inline-flex items-center gap-3 bg-white text-black px-6 py-3 rounded-full text-sm font-light tracking-wider hover:bg-white/85 transition-all duration-500"
               >
                 Send message
-                <span className="text-base">â†’</span>
+                <span className="text-base"> </span>
               </button>
               <p data-stagger className="text-white/35 text-xs font-light">
                 Opens your email client. Prefer LinkedIn? That&rsquo;s above.
@@ -216,7 +221,10 @@ export const ContactPage = () => {
       <section className="py-24 md:py-32 px-6 md:px-14 border-t border-white/5">
         <div className="max-w-[1216px] mx-auto">
           <SectionLabel label="Where I work from" />
-          <div ref={locationsRef} className="grid md:grid-cols-2 gap-10 md:gap-14">
+          <div
+            ref={locationsRef}
+            className="grid md:grid-cols-2 gap-10 md:gap-14"
+          >
             {locations.map((loc) => (
               <LocationCard key={loc.city} item={loc} />
             ))}
@@ -283,7 +291,9 @@ const LocationCard = ({
       >
         {item.city}
       </h3>
-      <p className="text-white/55 text-sm font-light leading-relaxed">{item.note}</p>
+      <p className="text-white/55 text-sm font-light leading-relaxed">
+        {item.note}
+      </p>
     </div>
   );
 };

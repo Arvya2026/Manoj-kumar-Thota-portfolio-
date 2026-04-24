@@ -12,7 +12,7 @@ export const BlogPage = () => {
       readTime: "6 min read",
       title: "Why a chatbot isn't enough for legal work",
       excerpt:
-        "Lawyers don't have time to fact-check AI. The next step beyond chatbots is AI that checks its own work — and shows you exactly where every answer came from.",
+        "Lawyers don't have time to fact-check AI. The next step beyond chatbots is AI that checks its own work    and shows you exactly where every answer came from.",
     },
     {
       category: "AI for Business",
@@ -26,26 +26,28 @@ export const BlogPage = () => {
       readTime: "4 min read",
       title: "From hackathon to top 10%: lessons from year one of VenRAAG",
       excerpt:
-        "Three wins in twelve months — the LegalTechTalk Hackathon, the Generator Bursary, and a place in the Mayor of London's Investment Readiness Programme. The honest lessons I'd hand to any first-time founder.",
+        "Three wins in twelve months    the LegalTechTalk Hackathon, the Generator Bursary, and a place in the Mayor of London's Investment Readiness Programme. The honest lessons I'd hand to any first-time founder.",
     },
     {
       category: "Building AI",
       readTime: "7 min read",
       title: "How to build AI that knows when it's wrong",
       excerpt:
-        "In law, finance and anything regulated, AI that's confidently wrong is worse than AI that says 'I don't know'. How we build AI that catches its own mistakes — and tries again.",
+        "In law, finance and anything regulated, AI that's confidently wrong is worse than AI that says 'I don't know'. How we build AI that catches its own mistakes    and tries again.",
     },
     {
       category: "Product",
       readTime: "5 min read",
-      title: "Reading 50 contracts at once — and still knowing where each answer came from",
+      title:
+        "Reading 50 contracts at once    and still knowing where each answer came from",
       excerpt:
         "How Enclaraa handles dozens of legal documents in parallel without losing track of which passage backs each answer. The engineering behind our London Tech Week demo, in plain English.",
     },
     {
       category: "Hiring",
       readTime: "3 min read",
-      title: "Hiring engineers who can actually ship — not just pass interviews",
+      title:
+        "Hiring engineers who can actually ship    not just pass interviews",
       excerpt:
         "What we screen for when hiring at Arvya Tech, and why 'can you ship it safely to real users?' beats every algorithm puzzle we've ever tried.",
     },
@@ -75,8 +77,8 @@ export const BlogPage = () => {
             </h1>
             <p className="text-white/55 text-base md:text-lg font-light max-w-2xl mt-10 leading-relaxed">
               Honest notes on building AI for high-stakes work what&rsquo;s
-              worth doing, what&rsquo;s worth avoiding, and what we got wrong before
-              we got it right.
+              worth doing, what&rsquo;s worth avoiding, and what we got wrong
+              before we got it right.
             </p>
           </div>
         </div>
@@ -89,7 +91,7 @@ export const BlogPage = () => {
         </div>
       </section>
 
-      {/* Post grid — staggered cascade */}
+      {/* Post grid    staggered cascade */}
       <section className="pb-24 md:pb-32 px-6 md:px-14">
         <div className="max-w-[1216px] mx-auto">
           <div ref={gridRef} className="grid md:grid-cols-2 gap-6 md:gap-8">
@@ -156,7 +158,9 @@ const FeaturedPost = ({
           {post.category}
         </span>
         <span className="text-white/30 text-xs font-light">&middot;</span>
-        <span className="text-white/45 text-xs font-light">{post.readTime}</span>
+        <span className="text-white/45 text-xs font-light">
+          {post.readTime}
+        </span>
       </div>
       <h2
         className="text-white font-neutralsans font-normal tracking-tight leading-[1.05] mb-6"
@@ -169,9 +173,7 @@ const FeaturedPost = ({
       </p>
       <div className="mt-8 inline-flex items-center gap-2 text-white/70 text-sm font-light">
         <span className="link-underline">Read the piece</span>
-        <span className="text-lg transition-transform duration-500 group-hover:translate-x-1">
-          â†’
-        </span>
+        <span className="text-lg transition-transform duration-500 group-hover:translate-x-1"></span>
       </div>
     </a>
   );
@@ -204,9 +206,7 @@ const PostCard = ({
       </p>
       <span className="inline-flex items-center gap-2 text-white/60 group-hover:text-white transition-colors duration-500 text-sm font-light">
         <span className="link-underline">Read</span>
-        <span className="transition-transform duration-500 group-hover:translate-x-1">
-          â†’
-        </span>
+        <span className="transition-transform duration-500 group-hover:translate-x-1"></span>
       </span>
     </a>
   );

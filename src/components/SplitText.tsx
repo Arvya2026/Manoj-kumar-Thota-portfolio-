@@ -10,7 +10,7 @@ type Props = {
 /**
  * Splits a string into words and reveals each word on scroll with a
  * blurred, staggered fade-in. Render inside an <h1>/<h2>/<p> or any styled
- * parent — this component is a transparent inline span and inherits styling.
+ * parent    this component is a transparent inline span and inherits styling.
  */
 export const SplitText = ({ text, step = 45, delay = 0, className }: Props) => {
   const ref = useRevealStagger<HTMLSpanElement>(step, delay);

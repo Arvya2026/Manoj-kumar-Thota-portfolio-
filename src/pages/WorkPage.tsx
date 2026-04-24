@@ -13,20 +13,26 @@ export const WorkPage = () => {
     {
       title: "Enclaraa",
       tagline: "AI tool for lawyers · Founder & Chief Architect",
-      period: "2024 — Present",
+      period: "2024    Present",
       href: "https://venraag.com/",
       description:
         "The product I wake up thinking about. Enclaraa is the AI tool we built at VenRAAG for legal teams. It chats with the firm's own documents. It drafts NDAs and standard contracts from a single sentence. It can read 50+ contracts at once and pull out what matters. And every answer it gives comes with a clear pointer back to the exact passage it came from. Runs on your own systems if your client data has to stay inside the firm.",
-      stack: ["AI for Lawyers", "Document Search", "Auto-drafting", "Runs on your servers", "Sourced answers"],
+      stack: [
+        "AI for Lawyers",
+        "Document Search",
+        "Auto-drafting",
+        "Runs on your servers",
+        "Sourced answers",
+      ],
       imageSrc: "/images/enclaraa-legal-ai.png",
     },
     {
       title: "Arvya Tech",
       tagline: "AI for businesses · Director",
-      period: "2024 — Present",
+      period: "2024    Present",
       href: "https://arvya.in/",
       description:
-        "Arvya Tech is our applied-AI studio in Vijayawada, India. We build AI tools that take repetitive, paper-heavy work off business teams — invoice reading, smart search through company knowledge, and automation that fits into the systems they already use. Practical AI for the kind of work that sits in spreadsheets, PDFs and emails.",
+        "Arvya Tech is our applied-AI studio in Vijayawada, India. We build AI tools that take repetitive, paper-heavy work off business teams    invoice reading, smart search through company knowledge, and automation that fits into the systems they already use. Practical AI for the kind of work that sits in spreadsheets, PDFs and emails.",
       stack: [
         "AI for Business",
         "Custom AI Tools",
@@ -42,18 +48,28 @@ export const WorkPage = () => {
       period: "2025",
       href: "/contact",
       description:
-        "An AI tool that reads invoices automatically — even messy scans, PDFs and unusual formats — and drops the line items straight into the company's accounting system. It always keeps a clear record of what it pulled out and from where, so finance teams can check anything in seconds.",
-      stack: ["AI", "Invoice Reading", "Accounting Integration", "Always Auditable"],
+        "An AI tool that reads invoices automatically    even messy scans, PDFs and unusual formats    and drops the line items straight into the company's accounting system. It always keeps a clear record of what it pulled out and from where, so finance teams can check anything in seconds.",
+      stack: [
+        "AI",
+        "Invoice Reading",
+        "Accounting Integration",
+        "Always Auditable",
+      ],
       imageSrc: "/images/ai-finance.png",
     },
     {
       title: "AI Search at Cohere",
       tagline: "Data Scientist · London · Hybrid",
-      period: "Jun 2024 — Nov 2024",
+      period: "Jun 2024    Nov 2024",
       href: "#",
       description:
         "Six months at Cohere in London, working on the AI search systems that read large collections of documents and find the right answer. A lot of what makes Enclaraa work today started during this period.",
-      stack: ["AI Search", "Document Reading", "Large Language Models", "Research"],
+      stack: [
+        "AI Search",
+        "Document Reading",
+        "Large Language Models",
+        "Research",
+      ],
       imageSrc: "/images/ai-systems.png",
     },
   ];
@@ -62,48 +78,44 @@ export const WorkPage = () => {
     {
       year: "2025",
       month: "Oct",
-      title: "Selected by the Mayor of London — Investment Readiness, Cohort 7",
-      body:
-        "VenRAAG was selected for the October 2025 Investment Readiness Programme run by Mountside Ventures and Funding London, with backing from the UK Government and the Mayor of London. Out of every early-stage AI startup in London, we made the top 10%.",
+      title:
+        "Selected by the Mayor of London    Investment Readiness, Cohort 7",
+      body: "VenRAAG was selected for the October 2025 Investment Readiness Programme run by Mountside Ventures and Funding London, with backing from the UK Government and the Mayor of London. Out of every early-stage AI startup in London, we made the top 10%.",
       tag: "Selected",
     },
     {
       year: "2025",
       month: "Jun",
-      title: "Won Best Overall Solution — LegalTechTalk Hackathon, London",
-      body:
-        "We won Best Overall Solution at the LegalTechTalk Hackathon 2025 in London. 48 hours, teams from across the world, judged by experts from McKinsey (QuantumBlack) and the international law firm Cleary Gottlieb. The work from that weekend turned into the version of Enclaraa we ship today.",
+      title: "Won Best Overall Solution    LegalTechTalk Hackathon, London",
+      body: "We won Best Overall Solution at the LegalTechTalk Hackathon 2025 in London. 48 hours, teams from across the world, judged by experts from McKinsey (QuantumBlack) and the international law firm Cleary Gottlieb. The work from that weekend turned into the version of Enclaraa we ship today.",
       tag: "Award",
     },
     {
       year: "2025",
       month: "Jun",
       title: "Launched Enclaraa publicly at London Tech Week",
-      body:
-        "Showed Enclaraa for the first time in public at London Tech Week 2025 (Olympia London, June 9–13). Live demos of contract drafting, document search across 50+ files at once, and the version that runs entirely on a firm's own servers — for teams that can't put their data anywhere else.",
+      body: "Showed Enclaraa for the first time in public at London Tech Week 2025 (Olympia London, June 9–13). Live demos of contract drafting, document search across 50+ files at once, and the version that runs entirely on a firm's own servers    for teams that can't put their data anywhere else.",
       tag: "Launch",
     },
     {
       year: "2025",
       month: "—",
       title: "Won the 2025 Generator Bursary",
-      body:
-        "VenRAAG won the 2025 Generator Bursary, awarded by the University of Greenwich and Santander UK. The kind of independent recognition that tells you the work is actually landing with people who've seen a lot of ideas. With thanks to the judges Remy Foucher and Lea Rozencwajg Henry.",
+      body: "VenRAAG won the 2025 Generator Bursary, awarded by the University of Greenwich and Santander UK. The kind of independent recognition that tells you the work is actually landing with people who've seen a lot of ideas. With thanks to the judges Remy Foucher and Lea Rozencwajg Henry.",
       tag: "Award",
     },
     {
       year: "2024",
       month: "—",
       title: "Started VenRAAG and Arvya Tech",
-      body:
-        "Started VenRAAG in London and Arvya Tech in Vijayawada — a UK-India team building AI for the kind of work that sits in case files, spreadsheets and PDFs.",
+      body: "Started VenRAAG in London and Arvya Tech in Vijayawada    a UK-India team building AI for the kind of work that sits in case files, spreadsheets and PDFs.",
       tag: "Milestone",
     },
   ];
 
   // Scroll-linked vertical line for the events timeline.
   // The same callback reveals each event row the moment the traveling circle
-  // passes its center — so text appears only when the dot "arrives".
+  // passes its center    so text appears only when the dot "arrives".
   const eventLineRef = useRef<HTMLDivElement>(null);
   const eventsContainerRef = useScrollLinked<HTMLDivElement>((p) => {
     if (eventLineRef.current)
@@ -126,7 +138,7 @@ export const WorkPage = () => {
         <div className="max-w-[1216px] mx-auto">
           <div ref={headRef} className="reveal">
             <p className="text-white/40 text-xs md:text-sm tracking-[0.26em] uppercase font-light mb-8">
-              Selected Work · 2019 — Now
+              Selected Work · 2019 Now
             </p>
             <h1
               className="text-white font-neutralsans font-normal leading-[0.95] tracking-tight"
@@ -136,16 +148,17 @@ export const WorkPage = () => {
               <br />
               <span className="text-white/30">
                 <SplitText
-                  text="— and the rooms they were shipped in."
+                  text="   and the rooms they were shipped in."
                   step={45}
                   delay={520}
                 />
               </span>
             </h1>
             <p className="text-white/55 text-base md:text-lg font-light max-w-2xl mt-10 leading-relaxed reveal">
-              The products, projects and moments I&rsquo;m most proud of. Most are
-              live. A few I can&rsquo;t talk about publicly. If anything here looks
-              like the kind of thing you&rsquo;re trying to build, just get in touch.
+              The products, projects and moments I&rsquo;m most proud of. Most
+              are live. A few I can&rsquo;t talk about publicly. If anything
+              here looks like the kind of thing you&rsquo;re trying to build,
+              just get in touch.
             </p>
           </div>
         </div>
@@ -175,7 +188,10 @@ export const WorkPage = () => {
             />
           </h2>
           <div ref={eventsContainerRef} className="relative pl-8 md:pl-12">
-            <div ref={eventLineRef} className="timeline-line left-0 md:left-3" />
+            <div
+              ref={eventLineRef}
+              className="timeline-line left-0 md:left-3"
+            />
             {events.map((e) => (
               <EventRow key={e.title} event={e} />
             ))}
@@ -268,13 +284,13 @@ const ProjectBlock = ({
         </div>
         <a
           href={project.href}
-          {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+          {...(external
+            ? { target: "_blank", rel: "noopener noreferrer" }
+            : {})}
           className="mt-3 inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors duration-500 text-sm font-light tracking-wide"
         >
           <span className="link-underline">View project</span>
-          <span className="text-lg transition-transform duration-500 group-hover:translate-x-1">
-            â†’
-          </span>
+          <span className="text-lg transition-transform duration-500 group-hover:translate-x-1"></span>
         </a>
       </div>
     </div>
@@ -284,7 +300,13 @@ const ProjectBlock = ({
 const EventRow = ({
   event,
 }: {
-  event: { year: string; month: string; title: string; body: string; tag: string };
+  event: {
+    year: string;
+    month: string;
+    title: string;
+    body: string;
+    tag: string;
+  };
 }) => {
   return (
     <div

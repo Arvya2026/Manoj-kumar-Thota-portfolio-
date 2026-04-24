@@ -3,7 +3,7 @@
   "source": "./index.html",
   "type": "module",
   "name": "manoj-thota-portfolio",
-  "description": "Manoj Kumar Thota — Personal Portfolio",
+  "description": "Manoj Kumar Thota    Personal Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
