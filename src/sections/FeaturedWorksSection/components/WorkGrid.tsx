@@ -3,36 +3,36 @@ import { WorkCard } from "@/sections/FeaturedWorksSection/components/WorkCard";
 export const WorkGrid = () => {
   const works = [
     {
+      href: "/work",
+      imageAlt: "$10M+ Insurance Automation Engine",
+      imageSrc: "/images/ai-systems.png",
+      date: "Enterprise Scale",
+      title: "$10M+ Insurance Automation",
+      category: "Insurance & Banking AI",
+    },
+    {
       href: "https://venraag.com/",
-      imageAlt: "Enclaraa  Legal AI Platform by VenRAAG",
+      imageAlt: "Enclaraa — Legal AI Platform by VenRAAG",
       imageSrc: "/images/enclaraa-legal-ai.png",
-      date: "2024    Present",
+      date: "2024 — Present",
       title: "Enclaraa",
-      category: "Legal AI Platform",
+      category: "Legal AI & On-Prem SLMs",
     },
     {
       href: "https://arvya.in/",
-      imageAlt: "Arvya Tech    Applied Enterprise AI",
+      imageAlt: "Arvya Tech — Applied Enterprise & E-commerce AI",
       imageSrc: "/images/work-arvya.png",
-      date: "2024    Present",
+      date: "2024 — Present",
       title: "Arvya Tech",
-      category: "Applied Enterprise AI",
+      category: "E-Commerce & Banking AI",
     },
     {
       href: "https://www.legaltech-talk.com/legaltechtalk-hackathon/",
-      imageAlt: "LegalTechTalk Hackathon 2025    Best Overall Solution",
+      imageAlt: "LegalTechTalk Hackathon 2025 — Best Overall Solution",
       imageSrc: "/images/work-3.jpg",
       date: "June 2025",
       title: "LegalTechTalk Hackathon Winner",
       category: "Award-Winning Innovation",
-    },
-    {
-      href: "/contact",
-      imageAlt: "Enterprise Invoice & Document Intelligence",
-      imageSrc: "/images/ai-finance.png",
-      date: "2025",
-      title: "Invoice & Document Intelligence",
-      category: "Enterprise Automation",
     },
   ];
 

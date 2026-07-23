@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export const HeroMeta = () => {
   const leftRef = useRef<HTMLDivElement>(null);
@@ -29,13 +29,13 @@ export const HeroMeta = () => {
       </div>
       <div ref={rightRef} className="text-right flex flex-col gap-0.5">
         <p className="text-white/90 text-sm md:text-base font-light tracking-wide leading-relaxed">
-          AI for Lawyers
+          7+ Yrs AI Industry Leader
         </p>
         <p className="text-white/90 text-sm md:text-base font-light tracking-wide leading-relaxed">
-          Document AI
+          On-Prem AI · SLMs &amp; LLMs
         </p>
         <p className="text-white/90 text-sm md:text-base font-light tracking-wide leading-relaxed">
-          Founder &amp; Engineer
+          Insurance · Banking · Legal · E-commerce
         </p>
       </div>
     </div>

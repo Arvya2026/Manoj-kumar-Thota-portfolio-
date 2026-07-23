@@ -1,45 +1,45 @@
-﻿import { ServiceItem } from "@/sections/ServicesSection/components/ServiceItem";
+import { ServiceItem } from "@/sections/ServicesSection/components/ServiceItem";
 
 export const ServiceList = () => {
   const services = [
     {
       number: "01",
-      title: "AI that reads your documents",
+      title: "On-Prem AI & Small Language Models (SLMs)",
       description:
-        "I build AI tools that can search through thousands of your own documents, find the exact passage you need, and quote it back to you with the source attached. So you always know where the answer came from ” and you can trust it.",
+        "Specialized in building domain-specific SLMs and fine-tuning Large Language Models tailored for high-security environments. Deployed entirely on-premise so sensitive corporate data never leaves your infrastructure while delivering superior speed, accuracy, and cost efficiency.",
       imageSrc: "/images/CEO -  3.jpg",
-      imageAlt: "AI that reads your documents",
-      imagePosition: "center 12%",
+      imageAlt: "On-Prem AI & Small Language Models",
+      imagePosition: "center 5%",
       flip: false,
     },
     {
       number: "02",
-      title: "Enclaraa  the AI tool for lawyers",
+      title: "$10M+ Insurance & Banking Automation",
       description:
-        "Our flagship product at VenRAAG. It reads your firm's contracts, drafts NDAs from a single sentence, processes 50+ documents at once, and shows you exactly where each answer came from. Runs on your own systems if your data has to stay inside the firm.",
+        "Proven track record in engineering and delivering $10M+ worth of enterprise automation for insurance and banking institutions. From intelligent claims triage and underwriting risk extraction to regulatory compliance pipelines.",
       imageSrc: "/images/CEO- 4.jpg",
-      imageAlt: "Enclaraa  the AI tool for lawyers",
-      imagePosition: "center 12%",
+      imageAlt: "Insurance & Banking Automation",
+      imagePosition: "center 5%",
       flip: true,
     },
     {
       number: "03",
-      title: "AI for finance and back-office work",
+      title: "Legal Tech & Document AI (Enclaraa)",
       description:
-        "At Arvya Tech we build AI that handles the tedious paperwork. It reads invoices automatically ” even messy scans and unusual formats ” and drops the line items straight into your accounting system. With a clear record of everything it did.",
+        "Flagship product built at VenRAAG. Enclaraa chats with firm documents, drafts NDAs and standard contracts in seconds, processes multi-document packages, and provides verifiable line-by-line citation pointers.",
       imageSrc: "/images/CEO - 5.jpg",
-      imageAlt: "AI for finance and back-office work",
-      imagePosition: "center 15%",
+      imageAlt: "Legal Tech & Document AI",
+      imagePosition: "center 5%",
       flip: false,
     },
     {
       number: "04",
-      title: "The systems behind it all",
+      title: "E-Commerce & Enterprise AI Systems",
       description:
-        "Most AI projects don't fail because the AI got the answer wrong. They fail because nobody set up the systems that keep it running properly. I do both ” the AI itself, and all the engineering that makes it work day after day.",
+        "At Arvya Tech, we design practical enterprise AI tools that eliminate tedious back-office operations — automated invoice processing, intelligent product/catalog search, and end-to-end data workflows for e-commerce and retail.",
       imageSrc: "/images/CEO - 1 copy.jpg",
-      imageAlt: "The systems behind it all",
-      imagePosition: "center 12%",
+      imageAlt: "E-Commerce & Enterprise AI Systems",
+      imagePosition: "center 2%",
       flip: true,
     },
   ];

@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export const HeroIntro = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -17,8 +17,8 @@ export const HeroIntro = () => {
 
   return (
     <div ref={ref} className="w-full flex justify-start pb-2">
-      <p className="text-white/70 text-sm md:text-base max-w-[400px] leading-relaxed font-light tracking-wide">
-        I build AI tools that help lawyers and businesses do their everyday work faster without their data ever leaving the building.
+      <p className="text-white/70 text-sm md:text-base max-w-[480px] leading-relaxed font-light tracking-wide">
+        AI Industry Leader with 7+ years of experience engineering On-Prem AI, Domain-Specific LLMs, and Small Language Models across Insurance, Banking, Legal Tech, and E-commerce — including $10M+ in enterprise insurance automation.
       </p>
     </div>
   );

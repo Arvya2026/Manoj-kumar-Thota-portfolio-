@@ -1,10 +1,9 @@
-﻿import { HeroSection } from "@/sections/HeroSection";
+import { HeroSection } from "@/sections/HeroSection";
 import { AboutSection } from "@/sections/AboutSection";
 import { StatementSection } from "@/sections/StatementSection";
 import { ServicesSection } from "@/sections/ServicesSection";
 import { FeaturedWorksSection } from "@/sections/FeaturedWorksSection";
 import { TestimonialsSection } from "@/sections/TestimonialsSection";
-import { PricingSection } from "@/sections/PricingSection";
 import { CtaSection } from "@/sections/CtaSection";
 
 export const HomePage = () => {
@@ -16,7 +15,6 @@ export const HomePage = () => {
       <ServicesSection />
       <FeaturedWorksSection />
       <TestimonialsSection />
-      <PricingSection />
       <CtaSection />
     </>
   );

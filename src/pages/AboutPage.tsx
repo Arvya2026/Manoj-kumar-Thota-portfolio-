@@ -18,41 +18,41 @@ export const AboutPage = () => {
       role: "CEO & Founder",
       company: "VenRAAG",
       type: "Full-time",
-      period: "Jul 2024 ” Present",
-      location: "London, United Kingdom   On-site",
-      note: "Running the team that builds Enclaraa  an AI tool for legal teams whose data has to stay inside the firm.",
+      period: "Jul 2024 — Present",
+      location: "London, United Kingdom · On-site",
+      note: "Leading the team behind Enclaraa — flagship On-Prem Legal & Document AI built with domain-specific SLMs for zero-data-leakage environments.",
     },
     {
       role: "Director",
       company: "Arvya Tech",
       type: "Full-time",
-      period: "May 2024 ” Present",
-      location: "Amaravati, Andhra Pradesh   Hybrid",
-      note: "Leading our India team. We build AI tools that fit into the systems large businesses already use ” invoice reading, smart search, day-to-day automation.",
+      period: "May 2024 — Present",
+      location: "Amaravati, Andhra Pradesh · Hybrid",
+      note: "Leading our India team building applied AI for enterprise banking, e-commerce, automated invoice extraction, and intelligent business workflows.",
     },
     {
       role: "Gen AI Specialist, Senior Data Scientist",
       company: "Outlier",
       type: "Full-time",
-      period: "Dec 2024 ” Mar 2025",
-      location: "London   Remote",
-      note: "Worked on improving how the latest AI models reason and answer hard questions ” frontier research from one of the leading projects in the field.",
+      period: "Dec 2024 — Mar 2025",
+      location: "London · Remote",
+      note: "Advanced model reasoning and frontier LLM research, optimizing model outputs for complex domain-specific logic and reasoning tasks.",
     },
     {
       role: "RAG Data Scientist",
       company: "Cohere",
       type: "Full-time",
-      period: "Jun 2024 ” Nov 2024",
-      location: "London   Hybrid",
-      note: "Worked on the AI search systems that find the right passage inside large collections of documents. A lot of what makes Enclaraa work today started here.",
+      period: "Jun 2024 — Nov 2024",
+      location: "London · Hybrid",
+      note: "Engineered high-performance enterprise AI retrieval & search systems to parse complex multi-document knowledge bases with high precision.",
     },
     {
-      role: "Data Scientist",
+      role: "Data Scientist & AI Engineer",
       company: "AntWorks",
       type: "Full-time",
-      period: "Dec 2019 ” Sep 2022",
+      period: "Dec 2019 — Sep 2022",
       location: "Hybrid",
-      note: "Three years building AI systems that businesses actually depend on. The kind of work that teaches you what breaks once real people start using it.",
+      note: "Key engineering role delivering $10M+ worth of insurance automation, underwriting risk models, and banking document intelligence systems.",
     },
   ];
 
@@ -67,7 +67,7 @@ export const AboutPage = () => {
     {
       school: "University of Greenwich",
       degree: "MSc, Big Data & Business Intelligence",
-      grade: "Distinction ” where Enclaraa was first prototyped.",
+      grade: "Distinction — focused on Enterprise AI & Document Intelligence.",
       mark: "UoG",
       logoSrc: "https://logo.clearbit.com/gre.ac.uk",
     },
@@ -80,7 +80,7 @@ export const AboutPage = () => {
     },
     {
       school: "Narayana Institute",
-      degree: "High School Diploma  Math, Physics, Chemistry",
+      degree: "High School Diploma · Math, Physics, Chemistry",
       grade: "96.8%",
       mark: "N",
       logoSrc: "https://logo.clearbit.com/narayanagroup.com",
@@ -88,24 +88,24 @@ export const AboutPage = () => {
   ];
 
   const skills = [
-    "AI for Lawyers",
-    "Document AI",
-    "Generative AI",
-    "Large Language Models",
-    "Strategic Leadership",
-    "Data Security",
+    "7+ Yrs AI Leadership",
+    "On-Prem AI Deployment",
+    "Small Language Models (SLMs)",
+    "Domain-Specific LLMs",
+    "Insurance Automation ($10M+)",
+    "Banking AI Systems",
+    "Legal Tech (Enclaraa)",
+    "E-Commerce Automation",
+    "Enterprise RAG & Search",
+    "Data Security & Governance",
     "Python",
     "LangChain",
     "LlamaIndex",
     "FastAPI",
-    "Azure",
-    "AWS",
-    "Docker",
-    "Redis",
-    "MLOps",
-    "Search Systems",
-    "Natural Language",
-    "Cloud Engineering",
+    "Azure & AWS",
+    "Docker & MLOps",
+    "Vector Databases",
+    "Model Fine-Tuning",
   ];
 
   // Scroll-linked vertical timeline line for Experience.
@@ -143,7 +143,7 @@ export const AboutPage = () => {
               <br />
               <span className="text-white/30">
                 <SplitText
-                  text="I build AI that lawyers actually trust."
+                  text="7+ years building enterprise AI for regulated domains."
                   step={45}
                   delay={700}
                 />
@@ -160,29 +160,19 @@ export const AboutPage = () => {
                 data-stagger
                 className="text-white/75 text-base md:text-lg leading-relaxed font-light"
               >
-                I run VenRAAG a London-based company building Enclaraa, an AI
-                tool for legal teams. The simple version: lawyers spend a huge
-                amount of time on work that&rsquo;s slow and repetitive.
-                Drafting standard contracts. Searching through old case files.
-                Checking documents line by line. I build AI that handles those
-                parts so lawyers can focus on the work only they can do.
+                Over the past 7+ years as an AI industry leader, I&rsquo;ve specialized in building secure, high-impact enterprise AI solutions across Insurance, Banking, Legal Tech, and E-commerce. My career includes delivering and playing a key engineering role in over $10 million worth of insurance automation systems.
               </p>
               <p
                 data-stagger
                 className="text-white/60 text-base md:text-lg leading-relaxed font-light"
               >
-                Enclaraa reads your firm&rsquo;s documents, drafts standard
-                contracts from a single sentence, and shows you exactly where
-                each answer came from. It runs on your own systems so client
-                data never leaves the firm. That&rsquo;s the whole point.
+                My core expertise lies in On-Premise AI deployments, Domain-Specific Large Language Models (LLMs), and Small Language Models (SLMs) engineered specifically for domain workflows — ensuring data security, cost efficiency, and high precision without data leaving corporate firewalls.
               </p>
               <p
                 data-stagger
                 className="text-white/60 text-base md:text-lg leading-relaxed font-light"
               >
-                I&rsquo;m not interested in AI that&rsquo;s flashy. I&rsquo;m
-                interested in AI that gets used the next morning, and the
-                morning after that.
+                As Founder at VenRAAG (creators of Enclaraa Legal AI) and Director at Arvya Tech, I lead engineering teams bringing domain-tailored AI models into active daily enterprise use.
               </p>
             </div>
 
@@ -191,7 +181,7 @@ export const AboutPage = () => {
               className="md:col-span-5 md:border-l md:border-white/10 md:pl-12"
             >
               <p className="text-white/35 text-[11px] tracking-[0.3em] uppercase font-light mb-5">
-                Current
+                Leadership Roles
               </p>
               <ul className="space-y-5">
                 <li>
@@ -211,12 +201,10 @@ export const AboutPage = () => {
               </ul>
               <div className="mt-10 pt-8 border-t border-white/10">
                 <p className="text-white/35 text-[11px] tracking-[0.3em] uppercase font-light mb-4">
-                  Community
+                  Community &amp; Focus
                 </p>
                 <p className="text-white/60 text-sm font-light leading-relaxed">
-                  2,683 followers and growing. Mostly lawyers, AI builders and
-                  business operators who care about tools that get used not
-                  tools that just get demoed.
+                  2,600+ followers. AI builders, enterprise executives, and legal/financial leaders focused on production-grade On-Prem AI and domain SLMs.
                 </p>
               </div>
             </aside>
@@ -233,7 +221,7 @@ export const AboutPage = () => {
             style={{ fontSize: "clamp(28px, 4vw, 56px)" }}
           >
             <SplitText
-              text="Five roles. One thread: building AI that actually works when real people use it."
+              text="7+ years of engineering production AI across Insurance, Banking, Legal Tech & E-Commerce."
               step={40}
               delay={120}
             />
@@ -257,14 +245,13 @@ export const AboutPage = () => {
             >
               &ldquo;
               <SplitText
-                text="Lawyers should always be able to see where an answer came from. Always."
+                text="Enterprise AI must be built for domain precision — on-premise, verifiable, and engineered for zero data leakage."
                 step={50}
               />
               &rdquo;
             </p>
             <p className="text-black/40 text-sm mt-8 tracking-wide font-light">
-              a line I come back to every time someone asks why every answer in
-              Enclaraa has a source attached.
+              the core principle behind every domain-specific SLM, LLM, and enterprise architecture I engineer.
             </p>
           </div>
         </div>
